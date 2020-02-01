@@ -13,7 +13,7 @@ namespace Uplift.DataAccess.Data.Repository.IRepository
         IEnumerable<T> GetAll(
             Expression<Func<T, bool>> filter = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
-            string inlcudeProperties = null
+            string includeProperties = null
             );
 
         T GetFirstOrDefault(
