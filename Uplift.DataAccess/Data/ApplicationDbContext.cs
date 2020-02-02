@@ -15,5 +15,6 @@ namespace Uplift.DataAccess.Data
         }
 
         public DbSet<Category> Category { set; get;  }
+        public DbSet<Frequency> Frequency { set; get; }
     }
 }
