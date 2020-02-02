@@ -18,7 +18,7 @@ namespace Uplift.DataAccess.Data.Repository
             _db = db;
         }
 
-        public IEnumerable<SelectListItem> GetCategoryListFroDropDown()
+        public IEnumerable<SelectListItem> GetCategoryListForDropDown()
         {
             return _db.Category.Select(i => new SelectListItem()
             {

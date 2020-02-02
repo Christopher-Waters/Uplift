@@ -8,7 +8,7 @@ namespace Uplift.DataAccess.Data.Repository.IRepository
 {
      public interface ICategoryRepository : IRepository<Category>
     {
-        IEnumerable<SelectListItem> GetCategoryListFroDropDown();
+        IEnumerable<SelectListItem> GetCategoryListForDropDown();
 
         void Update(Category category);
     }
